@@ -7,7 +7,8 @@ const { bacaData } = require("./fungsiCustom");
   console.log("====");
   bacaData((err, data) => {
     if (err) return console.log(err);
-    console.log(data?.join());
+   console.log(data?.join());
+   
   });
   console.log("Walaupun tulisan ini diletakkan di setelah bacaData");
   console.log("Namun tulisan ini akan ditampilkan terlebih dahulu");
